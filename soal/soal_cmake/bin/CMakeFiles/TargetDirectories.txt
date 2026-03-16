@@ -1,0 +1,4 @@
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/soal/soal_cmake/bin/CMakeFiles/MyProgram.dir
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/soal/soal_cmake/bin/CMakeFiles/run.dir
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/soal/soal_cmake/bin/CMakeFiles/edit_cache.dir
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/soal/soal_cmake/bin/CMakeFiles/rebuild_cache.dir
