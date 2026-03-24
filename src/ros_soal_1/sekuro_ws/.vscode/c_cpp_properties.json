@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/chatSystem/include",
+                "/Users/jae/miniconda3/envs/ros2/include/rclcpp",
+                "/Users/jae/miniconda3/envs/ros2/include/std_msgs",
+                "/Users/jae/miniconda3/envs/ros2/include/rcl",
+                "/Users/jae/miniconda3/envs/ros2/include/rcutils",
+                "/Users/jae/miniconda3/envs/ros2/include/rmw",
+                "/Users/jae/miniconda3/envs/ros2/include/rcl_interfaces",
+                "/Users/jae/miniconda3/envs/ros2/include/builtin_interfaces",
+                "/Users/jae/miniconda3/envs/ros2/include/rosidl_runtime_c",
+                "/Users/jae/miniconda3/envs/ros2/include/rosidl_runtime_cpp",
+                "/Users/jae/miniconda3/envs/ros2/include/rosidl_typesupport_interface",
+                "/Users/jae/miniconda3/envs/ros2/include/rosidl_typesupport_cpp",
+                "/Users/jae/miniconda3/envs/ros2/include/rcpputils",
+                "/Users/jae/miniconda3/envs/ros2/include/tracetools",
+                "/Users/jae/miniconda3/envs/ros2/include/statistics_msgs",
+                "/Users/jae/miniconda3/envs/ros2/include/rosgraph_msgs",
+                "/Users/jae/miniconda3/envs/ros2/include/ament_index_cpp",
+                "/Users/jae/miniconda3/envs/ros2/include/libstatistics_collector",
+                "/Users/jae/miniconda3/envs/ros2/include/rcl_yaml_param_parser",
+                "/Users/jae/miniconda3/envs/ros2/include/type_description_interfaces",
+                "/Users/jae/miniconda3/envs/ros2/include/service_msgs",
+                "/Users/jae/miniconda3/envs/ros2/include/action_msgs",
+                "/Users/jae/miniconda3/envs/ros2/include/unique_identifier_msgs",
+                "/Users/jae/miniconda3/envs/ros2/include/rcl_action"
+            ],
+            "compilerPath": "/Users/jae/miniconda3/envs/ros2/bin/clang++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}

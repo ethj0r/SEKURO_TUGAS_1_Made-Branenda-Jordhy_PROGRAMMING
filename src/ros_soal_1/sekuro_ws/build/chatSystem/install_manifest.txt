@@ -1,0 +1,17 @@
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/lib/chatSystem/talker
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/lib/chatSystem/listener
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/ament_index/resource_index/package_run_dependencies/chatSystem
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/ament_index/resource_index/parent_prefix_path/chatSystem
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/environment/ament_prefix_path.sh
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/environment/ament_prefix_path.dsv
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/environment/path.sh
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/environment/path.dsv
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/local_setup.bash
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/local_setup.sh
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/local_setup.zsh
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/local_setup.dsv
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.dsv
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/ament_index/resource_index/packages/chatSystem
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/cmake/chatSystemConfig.cmake
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/cmake/chatSystemConfig-version.cmake
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.xml

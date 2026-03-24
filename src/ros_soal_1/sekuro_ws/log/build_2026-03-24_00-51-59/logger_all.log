@@ -1,0 +1,135 @@
+[0.224s] colcon DEBUG Command line arguments: ['/Users/jae/miniconda3/envs/ros2/bin/colcon', 'build', '--cmake-args', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']
+[0.224s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=10, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x10171eed0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x1021e71d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x1021e71d0>>)
+[0.270s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.270s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.270s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.270s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.270s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[0.270s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.270s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws'
+[0.270s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[0.270s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[0.270s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[0.270s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[0.270s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[0.270s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[0.270s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[0.270s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(build) by extension 'ignore'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(build) ignored
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(chatSystem) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(chatSystem) by extension 'ignore'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(chatSystem) by extension 'ignore_ament_install'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(chatSystem) by extensions ['colcon_pkg']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(chatSystem) by extension 'colcon_pkg'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(chatSystem) by extensions ['colcon_meta']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(chatSystem) by extension 'colcon_meta'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(chatSystem) by extensions ['ros']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(chatSystem) by extension 'ros'
+[0.296s] colcon.colcon_core.package_identification DEBUG Package 'chatSystem' with type 'ros.ament_cmake' and name 'chatSystem'
+[0.296s] colcon.colcon_core.package_identification Level 1 _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] colcon.colcon_core.package_identification Level 1 _identify(install) by extension 'ignore'
+[0.296s] colcon.colcon_core.package_identification Level 1 _identify(install) ignored
+[0.296s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore'
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore_ament_install'
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_pkg']
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_pkg'
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_meta']
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_meta'
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ros']
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ros'
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['cmake', 'python']
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'cmake'
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python'
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['python_setup_py']
+[0.297s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python_setup_py'
+[0.297s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[0.297s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[0.297s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[0.297s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[0.297s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[0.308s] colcon.colcon_core.verb Level 5 set package 'chatSystem' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.308s] colcon.colcon_core.verb Level 5 set package 'chatSystem' build argument 'cmake_target' from command line to 'None'
+[0.308s] colcon.colcon_core.verb Level 5 set package 'chatSystem' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] colcon.colcon_core.verb Level 5 set package 'chatSystem' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] colcon.colcon_core.verb Level 5 set package 'chatSystem' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] colcon.colcon_core.verb Level 5 set package 'chatSystem' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] colcon.colcon_core.verb Level 5 set package 'chatSystem' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] colcon.colcon_core.verb Level 5 set package 'chatSystem' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] colcon.colcon_core.verb Level 5 set package 'chatSystem' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] colcon.colcon_core.verb DEBUG Building package 'chatSystem' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/build/chatSystem', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem', 'merge_install': False, 'path': '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/chatSystem', 'symlink_install': False, 'test_result_base': None}
+[0.308s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[0.309s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[0.309s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/chatSystem' with build type 'ament_cmake'
+[0.309s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/chatSystem'
+[0.311s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.311s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.311s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.328s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/build/chatSystem': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=4 _=/usr/bin/env /Users/jae/miniconda3/envs/ros2/bin/cmake /Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/chatSystem -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem
+[5.174s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/build/chatSystem' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=4 _=/usr/bin/env /Users/jae/miniconda3/envs/ros2/bin/cmake /Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/chatSystem -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem
+[5.176s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/build/chatSystem': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=4 _=/usr/bin/env /Users/jae/miniconda3/envs/ros2/bin/cmake --build /Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/build/chatSystem -- -j10 -l10
+[5.220s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/build/chatSystem' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=4 _=/usr/bin/env /Users/jae/miniconda3/envs/ros2/bin/cmake --build /Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/build/chatSystem -- -j10 -l10
+[5.237s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/build/chatSystem': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=4 _=/usr/bin/env /Users/jae/miniconda3/envs/ros2/bin/cmake --install /Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/build/chatSystem
+[5.250s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(chatSystem)
+[5.250s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/build/chatSystem' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=4 _=/usr/bin/env /Users/jae/miniconda3/envs/ros2/bin/cmake --install /Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/build/chatSystem
+[5.253s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem' for CMake module files
+[5.254s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem' for CMake config files
+[5.254s] colcon.colcon_core.shell Level 1 create_environment_hook('chatSystem', 'cmake_prefix_path')
+[5.254s] colcon.colcon_core.shell INFO Creating environment hook '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/hook/cmake_prefix_path.ps1'
+[5.254s] colcon.colcon_core.shell INFO Creating environment descriptor '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/hook/cmake_prefix_path.dsv'
+[5.255s] colcon.colcon_core.shell INFO Creating environment hook '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/hook/cmake_prefix_path.sh'
+[5.255s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/lib'
+[5.255s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/bin'
+[5.255s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/lib/pkgconfig/chatSystem.pc'
+[5.255s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/lib/python3.11/site-packages'
+[5.255s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/bin'
+[5.255s] colcon.colcon_core.shell INFO Creating package script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.ps1'
+[5.256s] colcon.colcon_core.shell INFO Creating package descriptor '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.dsv'
+[5.256s] colcon.colcon_core.shell INFO Creating package script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.sh'
+[5.257s] colcon.colcon_core.shell INFO Creating package script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.bash'
+[5.257s] colcon.colcon_core.shell INFO Creating package script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.zsh'
+[5.258s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/colcon-core/packages/chatSystem)
+[5.258s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(chatSystem)
+[5.258s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem' for CMake module files
+[5.258s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem' for CMake config files
+[5.258s] colcon.colcon_core.shell Level 1 create_environment_hook('chatSystem', 'cmake_prefix_path')
+[5.259s] colcon.colcon_core.shell INFO Creating environment hook '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/hook/cmake_prefix_path.ps1'
+[5.259s] colcon.colcon_core.shell INFO Creating environment descriptor '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/hook/cmake_prefix_path.dsv'
+[5.259s] colcon.colcon_core.shell INFO Creating environment hook '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/hook/cmake_prefix_path.sh'
+[5.259s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/lib'
+[5.259s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/bin'
+[5.259s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/lib/pkgconfig/chatSystem.pc'
+[5.259s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/lib/python3.11/site-packages'
+[5.259s] colcon.colcon_core.environment Level 1 checking '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/bin'
+[5.259s] colcon.colcon_core.shell INFO Creating package script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.ps1'
+[5.260s] colcon.colcon_core.shell INFO Creating package descriptor '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.dsv'
+[5.260s] colcon.colcon_core.shell INFO Creating package script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.sh'
+[5.260s] colcon.colcon_core.shell INFO Creating package script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.bash'
+[5.260s] colcon.colcon_core.shell INFO Creating package script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/chatSystem/package.zsh'
+[5.260s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/chatSystem/share/colcon-core/packages/chatSystem)
+[5.260s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[5.260s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[5.261s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[5.261s] colcon.colcon_core.event_reactor DEBUG joining thread
+[5.261s] colcon.colcon_core.event_reactor DEBUG joined thread
+[5.261s] colcon.colcon_core.shell INFO Creating prefix script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/local_setup.ps1'
+[5.261s] colcon.colcon_core.shell INFO Creating prefix util module '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/_local_setup_util_ps1.py'
+[5.262s] colcon.colcon_core.shell INFO Creating prefix chain script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/setup.ps1'
+[5.262s] colcon.colcon_core.shell INFO Creating prefix script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/local_setup.sh'
+[5.263s] colcon.colcon_core.shell INFO Creating prefix util module '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/_local_setup_util_sh.py'
+[5.263s] colcon.colcon_core.shell INFO Creating prefix chain script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/setup.sh'
+[5.263s] colcon.colcon_core.shell INFO Creating prefix script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/local_setup.bash'
+[5.263s] colcon.colcon_core.shell INFO Creating prefix chain script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/setup.bash'
+[5.264s] colcon.colcon_core.shell INFO Creating prefix script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/local_setup.zsh'
+[5.264s] colcon.colcon_core.shell INFO Creating prefix chain script '/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/install/setup.zsh'

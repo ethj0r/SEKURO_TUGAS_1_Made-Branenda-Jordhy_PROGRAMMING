@@ -1,0 +1,87 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+WARNING: Package name "chatSystem" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/chatSystem/src/talker.cpp:48:31: error: no matching function for call to 'make_unique'
+   48 |             sensors.push_back(make_unique<UltrasonicSensor>());
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/node.hpp:80:3: note: candidate function [with Args = <UltrasonicSensor>] not viable: requires single argument 'args', but no arguments were provided
+   80 |   RCLCPP_SMART_PTR_DEFINITIONS(Node)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/macros.hpp:39:3: note: expanded from macro 'RCLCPP_SMART_PTR_DEFINITIONS'
+   39 |   RCLCPP_UNIQUE_PTR_DEFINITIONS(__VA_ARGS__)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/macros.hpp:109:3: note: expanded from macro 'RCLCPP_UNIQUE_PTR_DEFINITIONS'
+  109 |   __RCLCPP_MAKE_UNIQUE_DEFINITION(__VA_ARGS__)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/macros.hpp:101:3: note: expanded from macro '__RCLCPP_MAKE_UNIQUE_DEFINITION'
+  101 |   make_unique(Args && ... args) \
+      |   ^           ~~~~~~~~~~~~~~~~
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/chatSystem/src/talker.cpp:48:21: error: no matching member function for call to 'push_back'
+   48 |             sensors.push_back(make_unique<UltrasonicSensor>());
+      |             ~~~~~~~~^~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/bin/../include/c++/v1/vector:677:60: note: candidate function not viable: no known conversion from 'unique_ptr<Node, default_delete<rclcpp::Node>>' to 'const unique_ptr<Sensor, default_delete<Sensor>>' for 1st argument
+  677 |   _LIBCPP_CONSTEXPR_SINCE_CXX20 _LIBCPP_HIDE_FROM_ABI void push_back(const_reference __x);
+      |                                                            ^         ~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/bin/../include/c++/v1/vector:679:60: note: candidate function not viable: no known conversion from 'unique_ptr<Node, default_delete<rclcpp::Node>>' to 'unique_ptr<Sensor, default_delete<Sensor>>' for 1st argument
+  679 |   _LIBCPP_CONSTEXPR_SINCE_CXX20 _LIBCPP_HIDE_FROM_ABI void push_back(value_type&& __x);
+      |                                                            ^         ~~~~~~~~~~~~~~~~
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/chatSystem/src/talker.cpp:49:31: error: no matching function for call to 'make_unique'
+   49 |             sensors.push_back(make_unique<IMUSensor>());
+      |                               ^~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/node.hpp:80:3: note: candidate function [with Args = <IMUSensor>] not viable: requires single argument 'args', but no arguments were provided
+   80 |   RCLCPP_SMART_PTR_DEFINITIONS(Node)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/macros.hpp:39:3: note: expanded from macro 'RCLCPP_SMART_PTR_DEFINITIONS'
+   39 |   RCLCPP_UNIQUE_PTR_DEFINITIONS(__VA_ARGS__)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/macros.hpp:109:3: note: expanded from macro 'RCLCPP_UNIQUE_PTR_DEFINITIONS'
+  109 |   __RCLCPP_MAKE_UNIQUE_DEFINITION(__VA_ARGS__)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/macros.hpp:101:3: note: expanded from macro '__RCLCPP_MAKE_UNIQUE_DEFINITION'
+  101 |   make_unique(Args && ... args) \
+      |   ^           ~~~~~~~~~~~~~~~~
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/chatSystem/src/talker.cpp:49:21: error: no matching member function for call to 'push_back'
+   49 |             sensors.push_back(make_unique<IMUSensor>());
+      |             ~~~~~~~~^~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/bin/../include/c++/v1/vector:677:60: note: candidate function not viable: no known conversion from 'unique_ptr<Node, default_delete<rclcpp::Node>>' to 'const unique_ptr<Sensor, default_delete<Sensor>>' for 1st argument
+  677 |   _LIBCPP_CONSTEXPR_SINCE_CXX20 _LIBCPP_HIDE_FROM_ABI void push_back(const_reference __x);
+      |                                                            ^         ~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/bin/../include/c++/v1/vector:679:60: note: candidate function not viable: no known conversion from 'unique_ptr<Node, default_delete<rclcpp::Node>>' to 'unique_ptr<Sensor, default_delete<Sensor>>' for 1st argument
+  679 |   _LIBCPP_CONSTEXPR_SINCE_CXX20 _LIBCPP_HIDE_FROM_ABI void push_back(value_type&& __x);
+      |                                                            ^         ~~~~~~~~~~~~~~~~
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/chatSystem/src/talker.cpp:50:31: error: no matching function for call to 'make_unique'
+   50 |             sensors.push_back(make_unique<TempSensor>());
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/node.hpp:80:3: note: candidate function [with Args = <TempSensor>] not viable: requires single argument 'args', but no arguments were provided
+   80 |   RCLCPP_SMART_PTR_DEFINITIONS(Node)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/macros.hpp:39:3: note: expanded from macro 'RCLCPP_SMART_PTR_DEFINITIONS'
+   39 |   RCLCPP_UNIQUE_PTR_DEFINITIONS(__VA_ARGS__)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/macros.hpp:109:3: note: expanded from macro 'RCLCPP_UNIQUE_PTR_DEFINITIONS'
+  109 |   __RCLCPP_MAKE_UNIQUE_DEFINITION(__VA_ARGS__)
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/include/rclcpp/rclcpp/macros.hpp:101:3: note: expanded from macro '__RCLCPP_MAKE_UNIQUE_DEFINITION'
+  101 |   make_unique(Args && ... args) \
+      |   ^           ~~~~~~~~~~~~~~~~
+/Users/jae/Developer/URO/Sekuro/SEKURO_TUGAS_1_Made-Branenda-Jordhy_PROGRAMMING/src/ros_soal_1/sekuro_ws/chatSystem/src/talker.cpp:50:21: error: no matching member function for call to 'push_back'
+   50 |             sensors.push_back(make_unique<TempSensor>());
+      |             ~~~~~~~~^~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/bin/../include/c++/v1/vector:677:60: note: candidate function not viable: no known conversion from 'unique_ptr<Node, default_delete<rclcpp::Node>>' to 'const unique_ptr<Sensor, default_delete<Sensor>>' for 1st argument
+  677 |   _LIBCPP_CONSTEXPR_SINCE_CXX20 _LIBCPP_HIDE_FROM_ABI void push_back(const_reference __x);
+      |                                                            ^         ~~~~~~~~~~~~~~~~~~~
+/Users/jae/miniconda3/envs/ros2/bin/../include/c++/v1/vector:679:60: note: candidate function not viable: no known conversion from 'unique_ptr<Node, default_delete<rclcpp::Node>>' to 'unique_ptr<Sensor, default_delete<Sensor>>' for 1st argument
+  679 |   _LIBCPP_CONSTEXPR_SINCE_CXX20 _LIBCPP_HIDE_FROM_ABI void push_back(value_type&& __x);
+      |                                                            ^         ~~~~~~~~~~~~~~~~
+6 errors generated.
+make[2]: *** [CMakeFiles/talker.dir/build.make:135: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:146: all] Error 2
